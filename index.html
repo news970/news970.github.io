@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verity Tools — Smart Converter Apps for iOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+        
+        .brand {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .brand-icon {
+            width: 64px; height: 64px;
+            background: #0066FF;
+            border-radius: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        .brand-icon svg { width: 32px; height: 32px; fill: white; }
+        .brand h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .brand p {
+            color: #666;
+            font-size: 16px;
+            margin-top: 8px;
+        }
+
+        .app-card {
+            background: white;
+            border: 1px solid #e8e8e8;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 16px;
+            transition: box-shadow 0.2s;
+        }
+        .app-card:hover {
+            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+        }
+        .app-card h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .app-card .desc {
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+        .app-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .app-links a {
+            color: #0066FF;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .app-links a:hover { text-decoration: underline; }
+        
+        .badge {
+            display: inline-block;
+            background: #e8f0fe;
+            color: #0066FF;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+        .badge.soon {
+            background: #f0f0f0;
+            color: #999;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 24px;
+            color: #999;
+            font-size: 13px;
+        }
+        footer a { color: #666; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand">
+            <div class="brand-icon">
+                <svg viewBox="0 0 24 24"><path d="M9 3L5 7h3v7h2V7h3L9 3zm7 14v-7h-2v7h-3l4 4 4-4h-3z"/></svg>
+            </div>
+            <h1>Verity Tools</h1>
+            <p>Smart converter apps for iOS. Offline. Private. Fast.</p>
+        </div>
+
+        <div class="app-card">
+            <span class="badge">Available on App Store</span>
+            <h2>HEIC to JPG</h2>
+            <p class="desc">Convert HEIC, PNG, WEBP, GIF, TIFF, BMP to JPG — 100% offline, no tracking. Batch convert 200+ photos at once.</p>
+            <div class="app-links">
+                <a href="heictojpg/privacy.html">Privacy Policy</a>
+                <a href="heictojpg/terms.html">Terms of Use</a>
+                <a href="heictojpg/support.html">Support</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <span class="badge soon">Coming Soon</span>
+            <h2>PDF to JPG</h2>
+            <p class="desc">Convert PDF documents to high-quality JPG images.</p>
+        </div>
+
+        <div class="app-card">
+            <span class="badge soon">Coming Soon</span>
+            <h2>PNG to JPG</h2>
+            <p class="desc">Batch convert PNG images to JPG with quality control.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Verity Tools. All rights reserved.</p>
+        <p style="margin-top: 8px;">Contact: <a href="mailto:news970@gmail.com">news970@gmail.com</a></p>
+    </footer>
+</body>
+</html>
