@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Health Report PDF</title>
+<style>
+  :root {
+    --teal: #00897B;
+    --teal-light: #E0F2F1;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --bg: #fafafa;
+    --card: #ffffff;
+    --border: #e8e8e8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+    background: var(--bg); color: var(--text);
+    line-height: 1.7; font-size: 16px;
+  }
+  header {
+    background: var(--card); border-bottom: 1px solid var(--border);
+    padding: 20px 24px; display: flex; align-items: center; gap: 12px;
+  }
+  .app-icon {
+    width: 44px; height: 44px; background: var(--teal);
+    border-radius: 10px; display: flex; align-items: center;
+    justify-content: center; font-size: 22px;
+  }
+  .app-name { font-size: 17px; font-weight: 600; }
+  .app-sub { font-size: 13px; color: var(--text-secondary); }
+  .container { max-width: 680px; margin: 0 auto; padding: 40px 24px 80px; }
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 32px; }
+  h2 { font-size: 20px; font-weight: 600; margin: 40px 0 16px; }
+  .faq-item {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px 22px; margin-bottom: 12px;
+  }
+  .faq-q { font-weight: 600; font-size: 16px; margin-bottom: 8px; color: var(--text); }
+  .faq-a { color: var(--text-secondary); font-size: 15px; }
+  .contact-section {
+    margin-top: 48px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 16px; padding: 28px;
+  }
+  .contact-section h2 { margin-top: 0; font-size: 20px; }
+  .contact-section p { color: var(--text-secondary); font-size: 15px; margin-bottom: 12px; }
+  .email-btn {
+    display: inline-block; background: var(--teal); color: white;
+    padding: 12px 24px; border-radius: 25px;
+    font-weight: 600; font-size: 15px; text-decoration: none; margin-top: 8px;
+  }
+  .response-note { font-size: 13px; color: var(--text-secondary); margin-top: 12px; }
+  footer {
+    margin-top: 40px; padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13px; color: var(--text-secondary);
+  }
+  footer a { color: var(--teal); }
+  nav {
+    background: var(--card); border-top: 1px solid var(--border);
+    position: fixed; bottom: 0; left: 0; right: 0;
+    display: flex; justify-content: center; gap: 32px;
+    padding: 12px 24px; font-size: 14px;
+  }
+  nav a { color: var(--teal); text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="app-icon">🫀</div>
+  <div>
+    <div class="app-name">Health Report PDF</div>
+    <div class="app-sub">by Verity Tools</div>
+  </div>
+</header>
+<div class="container">
+  <h1>Support</h1>
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <div class="faq-q">What can I use for free?</div>
+    <div class="faq-a">Heart Rate, Steps, and Sleep reports for the last 7 and 30 days are completely free with no limits. Pro features (Full Health Report, Custom Report Builder, Extended periods up to 1 year, Blood Pressure, Blood Glucose, CSV Export, Walking Metrics, Mental Health Scores, ECG Summary, Patient Info, Medications Log, and Export History) require a Pro subscription or lifetime purchase.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Is my health data safe?</div>
+    <div class="faq-a">Yes. All data is processed 100% on your device using Apple's built-in HealthKit and PDFKit frameworks. No health data is ever uploaded to any server. We don't collect any personal data. Our App Store Privacy Label is "Data Not Collected."</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Why doesn't the app show any data?</div>
+    <div class="faq-a">Make sure you've granted HealthKit permission. Go to Settings → Privacy & Security → Health → Health Report PDF and enable the metrics you want to export. Data must already exist in Apple Health for the selected period. Some metrics (heart rate, SpO2, ECG) require Apple Watch.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Does the app work without an Apple Watch?</div>
+    <div class="faq-a">Yes. Your iPhone automatically records steps, walking metrics, and other data without a Watch. However, heart rate, SpO2, and ECG data require Apple Watch Series 4 or later.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Can I share the PDF with my doctor?</div>
+    <div class="faq-a">Yes. After generating a report, tap Share to send via Mail, AirDrop, or save to Files. The PDF is formatted professionally and includes metric reference ranges from WHO, AHA, and ADA sources with a medical disclaimer.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">The PDF looks empty — why?</div>
+    <div class="faq-a">There may be no data recorded for the selected period. Try selecting a longer period (e.g. Last 30 days) or check that Apple Health has data recorded for that metric.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Does the app require an internet connection?</div>
+    <div class="faq-a">No. All report generation works completely offline. An internet connection is only needed to purchase or restore a subscription.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How do I cancel my subscription?</div>
+    <div class="faq-a">Open Settings → tap your name (Apple ID) → Subscriptions → Health Report PDF → Cancel Subscription. You will retain Pro access until the end of your current billing period.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How do I restore my purchase?</div>
+    <div class="faq-a">Open the app → Settings → Restore Purchases. Your Pro access will be restored automatically. Make sure you're signed in with the same Apple ID used for the original purchase.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Is the health data accurate enough for my doctor?</div>
+    <div class="faq-a">Apple Watch is not an FDA-cleared medical device (except for ECG/AFib in approved regions). Your doctor will treat the data as consumer wellness information useful for conversation, not as clinical measurements. Each report includes a disclaimer for this reason.</div>
+  </div>
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Have a question or found a bug? We'd love to hear from you.</p>
+    <a href="mailto:news970@gmail.com" class="email-btn">Email: news970@gmail.com</a>
+    <p class="response-note">We typically respond within 24 hours.</p>
+  </div>
+  <footer>
+    © 2026 Verity Tools. All rights reserved. &nbsp;·&nbsp;
+    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="terms.html">Terms of Use</a>
+  </footer>
+</div>
+<nav>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="support.html">Support</a>
+  <a href="terms.html">Terms of Use</a>
+</nav>
+</body>
+</html>
