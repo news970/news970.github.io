@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use — Verity Cycle</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1d1d1f;
+            background: #fff;
+            padding: 24px;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        h2 { font-size: 20px; font-weight: 600; margin-top: 32px; margin-bottom: 12px; }
+        p, li { font-size: 15px; color: #333; margin-bottom: 12px; }
+        ul, ol { padding-left: 20px; margin-bottom: 12px; }
+        .subtitle { font-size: 14px; color: #86868b; margin-bottom: 32px; }
+        .app-icon { width: 48px; height: 48px; border-radius: 12px; background: #3C2F7A; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; color: #fff; font-size: 24px; }
+        a { color: #3C2F7A; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e5e5ea; font-size: 13px; color: #86868b; }
+    </style>
+</head>
+<body>
+    <div class="app-icon">&#x1F4A7;</div>
+    <h1>Terms of Use</h1>
+    <p class="subtitle">Verity Cycle — Period &amp; Cycle Tracker<br>Last updated: April 1, 2026</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By downloading, installing, or using Verity Cycle ("the App"), you agree to these Terms of Use. If you do not agree, please do not use the App.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>Verity Cycle is a personal cycle tracking utility for iOS. The App allows you to log menstrual cycles, symptoms, basal body temperature, and related health information. All data is stored locally on your device. The App operates entirely offline and does not require an internet connection or user account.</p>
+
+    <h2>3. Not a Medical Device</h2>
+    <p><strong>Verity Cycle is a personal tracking utility, not a medical device.</strong> The App does not provide medical advice, diagnoses, or treatment recommendations. Cycle estimates, fertile window estimates, and all other calculations are based solely on data you enter and standard calendar-based algorithms. They should not be relied upon for:</p>
+    <ul>
+        <li>Medical decisions of any kind</li>
+        <li>Contraception or family planning</li>
+        <li>Diagnosis of medical conditions</li>
+        <li>Replacement of professional medical consultation</li>
+    </ul>
+    <p>Always consult a qualified healthcare professional for any health-related decisions. If you experience unusual symptoms or have concerns about your health, seek medical attention.</p>
+
+    <h2>4. User Responsibility</h2>
+    <p>You are responsible for the accuracy of data you enter into the App. The quality of cycle estimates depends on consistent and accurate logging. You are also responsible for backing up your data using the App's backup feature. Since data is stored only on your device, deletion of the App results in permanent loss of data unless a backup has been created.</p>
+
+    <h2>5. Subscriptions and Purchases</h2>
+    <p>Verity Cycle offers optional in-app purchases:</p>
+    <ul>
+        <li><strong>Yearly subscription</strong> — $29.99/year, includes a 1-month free trial for eligible users</li>
+        <li><strong>Monthly subscription</strong> — $5.99/month</li>
+        <li><strong>Lifetime purchase</strong> — $119.99 one-time payment</li>
+    </ul>
+    <p>All purchases are processed by Apple through the App Store. Payment is charged to your Apple ID account. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. You can manage and cancel subscriptions in your iPhone Settings → Apple ID → Subscriptions.</p>
+    <p>Free trial eligibility is determined by Apple and is tied to your Apple ID. Each Apple ID is eligible for one free trial. Prices are in USD; actual pricing may vary by region.</p>
+
+    <h2>6. Intellectual Property</h2>
+    <p>Verity Cycle, including its design, code, and content, is the property of Verity Tools (New_BlackSquare). You may not copy, modify, distribute, reverse engineer, or create derivative works based on the App.</p>
+
+    <h2>7. Privacy</h2>
+    <p>Your privacy is fundamental to Verity Cycle. We collect no data. For complete details, see our <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <h2>8. Apple HealthKit</h2>
+    <p>If you enable HealthKit integration, the App writes cycle data to Apple Health on your device. This feature requires your explicit permission and is disabled by default. HealthKit data is governed by Apple's terms and privacy protections.</p>
+
+    <h2>9. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, Verity Tools shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App. The App is provided "as is" without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or accuracy of cycle estimates.</p>
+
+    <h2>10. Indemnification</h2>
+    <p>You agree to indemnify and hold harmless Verity Tools from any claims, damages, or expenses arising from your use of the App or violation of these Terms.</p>
+
+    <h2>11. Governing Law</h2>
+    <p>These Terms are governed by the laws of Switzerland. Any disputes shall be resolved in the courts of Switzerland, without regard to conflict of law provisions.</p>
+
+    <h2>12. Changes to Terms</h2>
+    <p>We may update these Terms from time to time. The updated version will be posted at this URL with a revised date. Continued use of the App after changes constitutes acceptance of the revised Terms.</p>
+
+    <h2>13. Third-Party Terms</h2>
+    <p>Your use of the App is also subject to Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Standard End User License Agreement (EULA)</a>.</p>
+
+    <h2>14. Contact</h2>
+    <p>For questions about these Terms, contact us at:<br>
+    <a href="mailto:news970@gmail.com">news970@gmail.com</a></p>
+    <p>Developer: Verity Tools (New_BlackSquare)<br>Location: Switzerland</p>
+
+    <div class="footer">
+        &copy; 2026 Verity Tools. All rights reserved.<br>
+        <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a>
+    </div>
+</body>
+</html>
